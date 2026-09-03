@@ -162,9 +162,9 @@ For more detail, start with the [documentation index](docs/README.md) and the [p
 - Public user can sign in and submit free-text feedback.
 - Admin can sign in and view all feedback.
 - One seeded feedback item appears in the admin inbox.
-- Refreshing the browser signs the user out.
+- Refreshing the browser restores a successful session when local storage is available. Signing out clears the saved session.
 
-That last point and many other rough edges are intentional. See [workshop/TICKETS.md](workshop/TICKETS.md) for the participant backlog and [workshop/FACILITATOR.md](workshop/FACILITATOR.md) for running the session.
+Other rough edges are intentional. See [workshop/TICKETS.md](workshop/TICKETS.md) for the participant backlog and [workshop/FACILITATOR.md](workshop/FACILITATOR.md) for running the session.
 
 ## Stack
 
